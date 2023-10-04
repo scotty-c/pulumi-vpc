@@ -1,0 +1,12 @@
+config:
+  aws:region: ap-southeast-2
+  demo-go:stackName: demo-go
+  demo-go:clusterName: ecs-cluster
+  demo-go:lbName: demo-go
+  demo-go:repoName: nginx
+  demo-go:imageName: nginx
+  demo-go:containerPort: "80"
+  demo-go:cpu: "512"
+  demo-go:memory: "128"
+  
+ 
